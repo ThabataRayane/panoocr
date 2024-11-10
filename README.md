@@ -4,7 +4,7 @@ PanoOCR is a Python library for performing Optical Character Recognition (OCR) o
 
 # Demo
 
-This is a demo using the built-in [preview tool](#Interactive Preview Tool) with the test results in `/assets` folder.
+This is a demo using the built-in [preview tool](#Interactive-Preview-Tool) with the test results in `/assets` folder.
 
 https://github.com/user-attachments/assets/57507c48-ec88-4d4a-bf68-067eefc9d42f
 
