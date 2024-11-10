@@ -2,11 +2,13 @@
 
 PanoOCR is a Python library for performing Optical Character Recognition (OCR) on equirectangular panorama images. It automatically handles the conversion between flat and spherical coordinates, making it ideal for OCR tasks involving 360° panoramic content.
 
-# Demo
+## Demo
 
-This is a demo using the built-in [preview tool](#Interactive-Preview-Tool) with the test results in `/assets` folder.
+This is a demo using the built-in [preview tool](#interactive-preview-tool) with the test results in `/assets` folder.
 
 https://github.com/user-attachments/assets/57507c48-ec88-4d4a-bf68-067eefc9d42f
+
+The [test image](./assets/test-pano.jpg) is taken by the author himself and is copyright-free. Feel free to use it as you wish.
 
 ## Features
 
