@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "panoocr"
+version = "0.1.0"
+description = "PanoOCR is a Python library for performing Optical Character Recognition (OCR) on equirectangular panorama images."
+authors = [
+    { name="Yufeng Zhao", email="yufeng.zhao.p@outlook.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow",
+    "py360convert",
+    "geopandas",
+    "textdistance",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/yz3440/panoocr"
+issues = "https://github.com/yz3440/panoocr/issues"

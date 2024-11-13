@@ -1,4 +1,4 @@
-import panoocr as po
+from src import panoocr as po
 import json
 import os
 import sys
