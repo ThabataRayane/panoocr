@@ -155,13 +155,7 @@ class PaddleOCREngine(OCREngine):
             "merge_x_thres": 50,
             "merge_y_thres": 35,
         }
-
-        try:
-            annotations = self.ocr.ocr(image_array, cls=True, slice=slice)
-        except ValueError as e:
-            print(f"⚠️ Nenhum texto detectado nesta perspectiva. Ignorando. Erro: {e}")
-            return []
-
+        annotations = self.ocr.ocr(image_array, cls=True, slice=slice)
         paddle_ocr_results = []
 
         for annotation in annotations:

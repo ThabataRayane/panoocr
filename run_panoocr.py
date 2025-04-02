@@ -55,7 +55,7 @@ elif OCR_ENGINE_NAME == "florence2":
         po.OCREngineType.FLORENCE,
         {},
     )
-elif OCR_ENGINE_NAME == "paddle":
+elif OCR_ENGINE_NAME == "paddleocr":
     OCR_ENGINE = po.create_ocr_engine(
         engine_type=po.OCREngineType.PADDLEOCR,
         config={
